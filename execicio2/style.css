@@ -1,0 +1,46 @@
+body{
+    padding-left: 600px;
+    padding-top: 100px;
+    background-color: aquamarine;
+}
+.tela{
+    height:200px;
+    width: 400px;
+    background-color: aliceblue;
+
+}
+.tela .display {
+    height:200px;
+    width: 400px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+
+.texto{
+    padding-left: 157px;
+    padding-top: 10px;
+}
+.tela .display .texto{
+    font-style: italic;
+    font-size: 40px;
+}
+.tela .button{
+    padding-left: 157px;
+    background-color: rgb(253, 221, 183);
+}
+
+button{
+    background-color:rgba(255, 127, 80, 0.65);
+    font-size: 1em;
+    font-weight: 500;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    height:40px;
+    width: 90px;   
+}
+button:hover{
+    background-color:chocolate;
+    color: black;
+    font-weight: 800;
+}
