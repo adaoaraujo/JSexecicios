@@ -23,4 +23,14 @@ const enviarr = document.querySelector('.enviarr');
    var h2    = document.querySelector('.texto' );
 enviarr.addEventListener('click', function(event){
     window.open("http://www.imdb.com","_blank");
+    /**Exercício 2.3
+    Altere o status da janela do browser, através de JavaScript, para:
+    “Maio de 2010”
+    Altere o título da janela do browser, através de JavaScript, para:
+    “AIA 2009-2010”
+     * 
+     */
+    
+     window.status = "algum texto na barra de status!";
+
 });
