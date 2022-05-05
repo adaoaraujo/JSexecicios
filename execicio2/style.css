@@ -1,6 +1,5 @@
 body{
-    padding-left: 600px;
-    padding-top: 100px;
+    
     background-color: aquamarine;
 }
 .tela{
@@ -43,4 +42,11 @@ button:hover{
     background-color:chocolate;
     color: black;
     font-weight: 800;
+}
+.link-com-buton{
+  margin-top: 10px;
+}
+.localbutlink .enviar{
+    background-color: aquamarine;
+
 }
